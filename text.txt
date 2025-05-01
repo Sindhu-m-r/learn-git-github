@@ -59,6 +59,9 @@ git branch -M main ->to rename branch
 we can also use-> git push -u origin main
 this is done to set upstream (it reduces the task of writing origin main often) . now we can just write -> git push
 
+git push --set-upstream origin feature-1 -to set up stream
+
+
 
 ----work flow-------
 
@@ -71,3 +74,36 @@ this is done to set upstream (it reduces the task of writing origin main often) 
 
 
 ------git branches-------
+
+git branch   (to check branch)
+
+git branch -M main  (to rename branch)
+
+git checkout <-branch name->   (to navigate to other branches)
+
+git checkout -b <-new branch name ->  (to create new branch)
+
+git branch -d <-branch name->  (to delete the branch)
+
+we can not delete the particular branch if we are currently in same branch (first go to another branch and then delete)
+
+
+when we are doing some changes in different branches to push changes in that branch we use
+git push origin <-branch name->
+
+to merge two branches
+
+-------merging code------
+way 1
+ git diff <-branch name->  (to compare commits,branches,files & more)
+
+git merge <-branch name->  (to merge 2 branches)
+
+way 2
+
+using pull request-it lets you tell others about changes you've pushed to a branch in repository on git hub
+
+--------pull command---------
+to bring remote changes in local system.used to featch and download content from a remote  repo and immediately update the local repo to match that content.
+
+git pull origin main
