@@ -112,3 +112,26 @@ git pull origin main
 an event that takes place when git is unable to automatically resolve differences in code between two commits
 now we have to manually tell wt to do for github
 we will be given some options in the vs code there we can choose on
+
+--------------undoing changes--------
+case 1:staged changes (changes which are added but not committed)
+
+git reset <-file name->
+
+git reset  (to reset many files at a time)
+
+case 2: committed changes (for one commit)
+
+git reset HEAD~1
+
+git log  (to see all the commits)
+
+case 3: commited changes (for multiple commits)
+ git reset <-commit hash ->
+
+ git reset --hard <-commit hash->
+
+
+ -----------------fork-------------
+ fork is a new repo that shares code and visibility settings with the original "upstream" repo
+ fork is rough copy
