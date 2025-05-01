@@ -1,0 +1,43 @@
+to clear screen=cls
+
+-----------clone command----
+to list all file in current directory-dir /a
+to clone project -> git clone <link>
+to find hidden files -> dir /a:h
+
+------------status command------
+tells status of our code
+to check status of project-> git status
+
+after modifying anything 2 step process
+1.add
+2.commit
+'u' infornt of any file means-untracked file
+'m' means modified 
+
+git have 4 types of status
+1. untracked -new files that git doesn't yet track
+2.modified-changed
+3.staged-file us ready to be committed (files added but not committed)
+4.unmodified-changed
+
+
+---------------add & commit-----------------
+
+1.add-adds new or changed files in your working directory to the git staging area.
+
+git add <-file name->
+
+to enter all the files -> git add.
+
+2.commit -it is the record of changes
+
+git commit -m "some message"
+
+
+--------------push command----------------
+to update all the things happened in local system to github we use push.i.e upload local repo content to remote repo
+
+git push origin main
+origin -repo in github is named as origin(can be anything)
+main-is the branch on which we are making changes
