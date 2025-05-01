@@ -107,3 +107,8 @@ using pull request-it lets you tell others about changes you've pushed to a bran
 to bring remote changes in local system.used to featch and download content from a remote  repo and immediately update the local repo to match that content.
 
 git pull origin main
+
+---------resolving merge conflicts---------
+an event that takes place when git is unable to automatically resolve differences in code between two commits
+now we have to manually tell wt to do for github
+we will be given some options in the vs code there we can choose on
